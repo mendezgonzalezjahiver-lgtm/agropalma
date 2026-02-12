@@ -24,7 +24,6 @@ const agropalma = {
     // Prevenir recargas de página
     setupEventPrevention() {
         document.addEventListener('submit', function(e) {
-            console.log('📤 Submit interceptado:', e.target.id);
             e.preventDefault();
         }, true);
     },
